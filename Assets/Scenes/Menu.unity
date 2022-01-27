@@ -505,17 +505,21 @@ PrefabInstance:
       value: AmbientMusic
       objectReference: {fileID: 0}
     - target: {fileID: 511415362408890441, guid: ccb4ad007ddb8354e857ad2525ac55f2, type: 3}
+      propertyPath: AmbientMusic.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 511415362408890441, guid: ccb4ad007ddb8354e857ad2525ac55f2, type: 3}
       propertyPath: AmbientMusic.Array.data[0]
       value: 
-      objectReference: {fileID: 8300000, guid: 8cb8ee6653b98a945b3ffae932dfeae0, type: 3}
+      objectReference: {fileID: 8300000, guid: a1945394ed3faff488c7fe898e53aef7, type: 3}
     - target: {fileID: 511415362408890441, guid: ccb4ad007ddb8354e857ad2525ac55f2, type: 3}
       propertyPath: AmbientMusic.Array.data[1]
       value: 
-      objectReference: {fileID: 8300000, guid: 85723387ab5de3943918c7a480f42bee, type: 3}
+      objectReference: {fileID: 8300000, guid: b42f6faebe44ba647800a2012bcdaec5, type: 3}
     - target: {fileID: 511415362408890441, guid: ccb4ad007ddb8354e857ad2525ac55f2, type: 3}
       propertyPath: AmbientMusic.Array.data[2]
       value: 
-      objectReference: {fileID: 8300000, guid: 507b88777882c1e4385847f8d79d3de6, type: 3}
+      objectReference: {fileID: 8300000, guid: d9bc9670ba26479478bfb73276c88d54, type: 3}
     - target: {fileID: 511415362408890441, guid: ccb4ad007ddb8354e857ad2525ac55f2, type: 3}
       propertyPath: AmbientMusic.Array.data[3]
       value: 
