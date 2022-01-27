@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1447632991162149380}
   - component: {fileID: 3185130568520650050}
   - component: {fileID: 1348311109325321489}
+  - component: {fileID: 135145971207111311}
   m_Layer: 0
   m_Name: Stick.001
   m_TagString: Untagged
@@ -81,6 +82,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &135145971207111311
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6684021858826841841}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.002617862, y: 0.041219827, z: 0.0026178702}
+  m_Center: {x: 0, y: 0.01930098, z: 0.0000000037252903}
 --- !u!1 &7783662947066502171
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,6 +106,7 @@ GameObject:
   - component: {fileID: 7444151775788304033}
   - component: {fileID: 5827986724138748164}
   - component: {fileID: 8576503257628376526}
+  - component: {fileID: 3306322364355657783}
   m_Layer: 0
   m_Name: Tablet
   m_TagString: Untagged
@@ -108,7 +123,7 @@ Transform:
   m_GameObject: {fileID: 7783662947066502171}
   m_LocalRotation: {x: -0.00000009735359, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: 477.4718, y: 4.0970926, z: 402.96616}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalScale: {x: 50, y: 50, z: 50}
   m_Children:
   - {fileID: 1447632991162149380}
   m_Father: {fileID: 0}
@@ -163,3 +178,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3306322364355657783
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7783662947066502171}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0016278457, y: 0.020000001, z: 0.026870202}
+  m_Center: {x: -0.00088458473, y: 0.0285789, z: 0.0000000013969839}
