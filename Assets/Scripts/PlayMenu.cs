@@ -9,6 +9,8 @@ public class PlayMenu : MonoBehaviour
     public GameObject Player;
     public GameObject Menu;
     public GameObject GameMenu;
+    public bool IsCan;
+
     private bool isActiveMenu;
 
     private void Awake()
@@ -17,6 +19,7 @@ public class PlayMenu : MonoBehaviour
         isActiveMenu = false;
         Menu.SetActive(false);
         GameMenu.SetActive(true);
+        IsCan = true;
     }
 
     public void ContinueBtn()
@@ -33,7 +36,7 @@ public class PlayMenu : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && IsCan)
         {
             SetMenu();
         }
