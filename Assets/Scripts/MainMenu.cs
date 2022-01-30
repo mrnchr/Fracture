@@ -5,14 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public AudioClip Click;
 
     public void PlayBtn()
     {
+        GetComponent<AudioSource>().Play();
         SceneManager.LoadScene("House");
     }
 
     public void ExitBtn()
     {
+        GetComponent<AudioSource>().Play();
         Application.Quit();
     }
 }

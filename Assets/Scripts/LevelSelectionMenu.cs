@@ -10,12 +10,14 @@ public class LevelSelectionMenu : MonoBehaviour
 
     public void LevelButton(string sceneName)
     {
-        if(SceneManager.GetActiveScene().name != sceneName)
+        GetComponent<AudioSource>().Play();
+        if (SceneManager.GetActiveScene().name != sceneName)
             SceneManager.LoadScene(sceneName);
     }
 
     public void ToggleLevelMenu()
     {
+        GetComponent<AudioSource>().Play();
         LevelLayout.SetActive(!LevelLayout.activeSelf);
         MenuLayout.SetActive(!MenuLayout.activeSelf);
     }

@@ -19,11 +19,13 @@ public class PlayMenu : MonoBehaviour
 
     public void ContinueBtn()
     {
+        GetComponent<AudioSource>().Play();
         SetMenu();
     }
 
     public void MainMenuButton()
     {
+        GetComponent<AudioSource>().Play();
         SceneManager.LoadScene("Menu");
     }
 
