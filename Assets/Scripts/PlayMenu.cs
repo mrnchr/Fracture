@@ -8,6 +8,7 @@ public class PlayMenu : MonoBehaviour
 {
     public GameObject Player;
     public GameObject Menu;
+    public GameObject GameMenu;
     private bool isActiveMenu;
 
     private void Awake()
@@ -15,6 +16,7 @@ public class PlayMenu : MonoBehaviour
         Player = GameObject.FindGameObjectWithTag("Player");
         isActiveMenu = false;
         Menu.SetActive(false);
+        GameMenu.SetActive(true);
     }
 
     public void ContinueBtn()
@@ -41,6 +43,7 @@ public class PlayMenu : MonoBehaviour
     {
         isActiveMenu = !isActiveMenu;
         Menu.SetActive(isActiveMenu);
+        GameMenu.SetActive(!isActiveMenu);
         Player.gameObject.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().enabled = !isActiveMenu;
     }
 }
