@@ -523,6 +523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20e444e90b172164687f27f25eab8270, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Win: {fileID: 0}
 --- !u!65 &256804200
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -860,6 +861,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1504421347}
     m_Modifications:
+    - target: {fileID: 1068384045, guid: 6a3889c6d69239449a3946f43b988b12, type: 3}
+      propertyPath: Aim
+      value: 
+      objectReference: {fileID: 942422318}
     - target: {fileID: 6066036134779825086, guid: 6a3889c6d69239449a3946f43b988b12, type: 3}
       propertyPath: m_Text
       value: "\u041D\u0410\u0439\u0442\u0438 \u043E\u0434\u0438\u043D\u043E\u043A\u0443\u044E
@@ -2196,6 +2201,7 @@ MonoBehaviour:
   Player: {fileID: 603664702}
   Menu: {fileID: 921546780}
   GameMenu: {fileID: 495550642}
+  IsCan: 0
 --- !u!114 &924004556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2306,6 +2312,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &942422318 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100008, guid: 3c8ce989a89bfce4da004b17f42d7298, type: 3}
+  m_PrefabInstance: {fileID: 2015502632}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &960869160 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6341750456419376742, guid: 45f9a4d37d4214f4daa81149cbac6d63, type: 3}

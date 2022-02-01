@@ -258,6 +258,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Win: {fileID: 0}
+--- !u!1 &318180722 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7783662947066502171, guid: f7c119474d310134c83d267c99a97eb0, type: 3}
+  m_PrefabInstance: {fileID: 1990402548}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &386042835 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
@@ -1729,6 +1734,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 503680561}
     m_Modifications:
+    - target: {fileID: 1068384045, guid: 6a3889c6d69239449a3946f43b988b12, type: 3}
+      propertyPath: Aim
+      value: 
+      objectReference: {fileID: 318180722}
     - target: {fileID: 6066036135765952433, guid: 6a3889c6d69239449a3946f43b988b12, type: 3}
       propertyPath: m_Name
       value: GameMenu

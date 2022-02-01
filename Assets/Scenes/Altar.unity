@@ -1921,6 +1921,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 633906316}
     m_Modifications:
+    - target: {fileID: 1068384045, guid: 6a3889c6d69239449a3946f43b988b12, type: 3}
+      propertyPath: Aim
+      value: 
+      objectReference: {fileID: 1924076217}
     - target: {fileID: 6066036134779825086, guid: 6a3889c6d69239449a3946f43b988b12, type: 3}
       propertyPath: m_Text
       value: "\u041D\u0430\u0439\u0442\u0438 \u043C\u0430\u0433\u0438\u0447\u0435\u0441\u043A\u0438\u0439
@@ -3260,6 +3264,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8264945026622654779, guid: 733d03363926a404485da48f817db6b4, type: 3}
   m_PrefabInstance: {fileID: 73556836}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1924076217 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 372655840418574908, guid: 32631ff0b4fdc7c499c1f1215021ea69, type: 3}
+  m_PrefabInstance: {fileID: 1631969168}
   m_PrefabAsset: {fileID: 0}
 --- !u!108 &1941594317 stripped
 Light:
