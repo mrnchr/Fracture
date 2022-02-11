@@ -5,7 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class LevelEnd : MonoBehaviour
 {
-    public Win Win;
+    /// <summary>
+    /// Win Menu
+    /// </summary>
+    [SerializeField] private Win Win;
 
     private int _nextScene;
 

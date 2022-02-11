@@ -5,15 +5,12 @@ using UnityEngine.UI;
 
 public class Distance : MonoBehaviour
 {
-    public GameObject Aim;
+    [SerializeField] private GameObject Aim;
 
     private float _distance;
     private GameObject _player;
 
-    private void Awake()
-    {
-        _player = GameObject.FindGameObjectWithTag("Player");
-    }
+    private void Awake() => _player = GameObject.FindGameObjectWithTag("Player");
 
     private void Update()
     {

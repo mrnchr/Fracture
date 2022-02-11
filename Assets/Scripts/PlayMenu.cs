@@ -6,10 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class PlayMenu : MonoBehaviour
 {
-    public GameObject Player;
-    public GameObject Menu;
-    public GameObject GameMenu;
-    public bool IsCan;
+    [SerializeField] private GameObject Player;
+    [SerializeField] private GameObject Menu;
+    [SerializeField] private GameObject GameMenu;
+    public bool IsCan { get; set; }
 
     private bool isActiveMenu;
 

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SceneMusic: MonoBehaviour
 {
-    public AudioClip[] AmbientMusic;
+    [SerializeField] private AudioClip[] AmbientMusic;
 
     private AudioSource _AudioSource;
     private int _numberClip;

@@ -1283,7 +1283,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle Pointer
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2112280067969581123, guid: 45f9a4d37d4214f4daa81149cbac6d63, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 45f9a4d37d4214f4daa81149cbac6d63, type: 3}
 --- !u!1 &633906312
 GameObject:
@@ -1527,7 +1528,6 @@ MonoBehaviour:
   Player: {fileID: 593765708}
   Menu: {fileID: 329081790}
   GameMenu: {fileID: 1592102492}
-  IsCan: 0
 --- !u!114 &787632444
 MonoBehaviour:
   m_ObjectHideFlags: 0

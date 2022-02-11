@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class LevelSelectionMenu : MonoBehaviour
 {
-    public GameObject LevelLayout;
-    public GameObject MenuLayout;
+    [SerializeField] private GameObject LevelLayout;
+    [SerializeField] private GameObject MenuLayout;
 
     public void LevelButton(string sceneName)
     {

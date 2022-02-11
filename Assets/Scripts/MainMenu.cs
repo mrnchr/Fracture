@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public AudioClip Click;
+    [SerializeField] private AudioClip Click;
 
     public void PlayBtn()
     {

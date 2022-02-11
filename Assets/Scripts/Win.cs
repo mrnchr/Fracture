@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Win : MonoBehaviour
 {
-    public GameObject WinMenu;
-    public GameObject GameMenu;
-    public PlayMenu PlayMenu;
+    [SerializeField] private GameObject WinMenu;
+    [SerializeField] private GameObject GameMenu;
+    [SerializeField] private PlayMenu PlayMenu;
 
     private void Awake()
     {
