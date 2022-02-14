@@ -14,7 +14,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: MrnChr
   productName: Fracture
-  defaultCursor: {fileID: 0}
+  defaultCursor: {fileID: 2800000, guid: 09a4dd5cb626d5f4fb446b711f8a3abb, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.47058827, g: 0.28627452, b: 0.13725491, a: 1}
   m_ShowUnitySplashScreen: 1
